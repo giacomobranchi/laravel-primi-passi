@@ -14,15 +14,20 @@
     <!-- Styles -->
 
 </head>
-<header>
-    <ul style="list-style:none; display: flex;">
-        <li style="padding:0 1rem"><a href="/about">About Us</a></li>
-        <li><a href="/contacts">Contacts</a></li>
-    </ul>
-</header>
 
-<body class=" antialiased">
-    <h1 style="text-align: center;">{{$welcome}}</h1>
+
+<body class="antialiased">
+    <header>
+        <ul style="list-style:none; display: flex;">
+            <li style="padding:0 1rem"><a href="/">Home</a></li>
+            <li><a href="/contacts">Contacts</a></li>
+        </ul>
+    </header>
+    <main style="text-align: center;">
+        <h1>{{$about}}</h1>
+        <p>{{$message}}</p>
+    </main>
+
 </body>
 
 </html>
